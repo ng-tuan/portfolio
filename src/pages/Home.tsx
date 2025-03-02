@@ -34,7 +34,7 @@ const Home: React.FC = () => {
             <LazySiteBarRight />
           </Suspense>
         </header>
-        <main className="relative">
+        {/* <main className="relative">
           <Suspense fallback={<div>Loading...</div>}>
             <LazyBannerQuote
               style={"withBG"}
@@ -92,8 +92,8 @@ const Home: React.FC = () => {
               <LazyContact />
             </div>
           </Suspense>
-        </main>
-        <Footer />
+        </main> */}
+        {/* <Footer /> */}
       </Layout>
     </>
   );
