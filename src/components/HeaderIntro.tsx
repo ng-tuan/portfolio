@@ -4,7 +4,7 @@ import { headerIntroData } from "../assets/lib/data";
 import { useSectionInView } from "../assets/lib/hooks";
 import { useActiveSectionContext } from "../context/active-section-context";
 import { useLanguage } from "../context/language-context";
-import { BsMouse } from "react-icons/bs";
+import { BsCodeSlash } from "react-icons/bs";
 
 const HeaderIntro: React.FC = () => {
   const { language } = useLanguage();
@@ -20,7 +20,7 @@ const HeaderIntro: React.FC = () => {
       <img
         src={headerIntroData.profilepicture}
         alt={headerIntroData.profilepicture}
-        className="w-1/6 drop-shadow-2xl rounded-full max-lg:w-1/4 max-md:w-1/3 max-sm:w-1/2 avatar-img"
+        className="w-1/6 drop-shadow-2xl rounded-full max-lg:w-1/4 max-md:w-1/3 max-sm:w-1/2 max-sm:h-[24%] avatar-img"
       />
       <h1>
         {language === "VI"
@@ -68,8 +68,8 @@ const HeaderIntro: React.FC = () => {
           />
         ))}
       </div>
-      <div className="scroll-down-container animate-bounce flex gap-6">
-        <BsMouse className="text-[2.6rem]" />
+      <div className="scroll-down-container flex justify-center items-center w-full mt-2 mb-4">
+        <BsCodeSlash className="text-[2.6rem] animate-pulse" />
       </div>
     </section>
   );

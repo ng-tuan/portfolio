@@ -6,7 +6,7 @@ interface SocialLink {
   link: string;
   icon: string | React.FC<{ className: string }>;
   iconcolor?: string;
-  altimgname: any;
+  altimgname: string;
 }
 
 const SiteBarLeft: React.FC = () => {
@@ -27,9 +27,7 @@ const SiteBarLeft: React.FC = () => {
             target='_blank'
             rel='noopener noreferrer'
             aria-current={
-              social.altimgname === 'true'
-                ? social.altimgname
-                : social.altimgname + ' button'
+              social.altimgname === 'true' ? 'true' : undefined
             }
           >
             {typeof social.icon === 'function' ? (

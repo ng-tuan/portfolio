@@ -1,41 +1,43 @@
+import { FiGithub, FiLink, FiLinkedin, FiMail } from 'react-icons/fi';
+import { GoHome, GoStack } from 'react-icons/go';
 import adobexdicon from '../../assets/icons/adobexdicon.svg';
-import canvaicon from '../../assets/icons/canvaicon.svg';
-import figmaicon from '../../assets/icons/figmaicon.svg';
-import htmlicon from '../../assets/icons/htmlicon.svg';
-import cssicon from '../../assets/icons/cssicon.svg';
-import javascripticon from '../../assets/icons/javascripticon.svg';
-import typescripticon from '../../assets/icons/typescripticon.svg';
-import reacticon from '../../assets/icons/reacticon.svg';
-import nextjsicon from '../../assets/icons/nextjsicon.svg';
-import nodejsicon from '../../assets/icons/nodejsicon.svg';
-import tailwindcssicon from '../../assets/icons/tailwindicon.svg';
-import mongodbicon from '../../assets/icons/mongoicon.svg';
-import vuejsicon from '../../assets/icons/vueicon.svg';
-import expressicon from '../../assets/icons/expressicon.svg';
-import sassscssicon from '../../assets/icons/sassicon.svg';
-import trelloicon from '../../assets/icons/trelloicon.svg';
 import apiicon from '../../assets/icons/apiicon.svg';
 import axiosicon from '../../assets/icons/axiosicon.svg';
-import spotifyicon from '../../assets/icons/spotifyicon.svg';
-import netlifyicon from '../../assets/icons/netlifyicon.svg';
-import rendericon from '../../assets/icons/rendericon.svg';
+import canvaicon from '../../assets/icons/canvaicon.svg';
+import cicon from '../../assets/icons/cicon.svg';
+import caricon from '../../assets/icons/car-icon.svg';
+import cssicon from '../../assets/icons/cssicon.svg';
+import expressicon from '../../assets/icons/expressicon.svg';
+import expressiconwhite from '../../assets/icons/expressiconwhite.svg';
+import figmaicon from '../../assets/icons/figmaicon.svg';
+import hardwareicon from '../../assets/icons/hardware-icon.svg';
+import htmlicon from '../../assets/icons/htmlicon.svg';
+import javascripticon from '../../assets/icons/javascripticon.svg';
 import jwticon from '../../assets/icons/jwticon.svg';
-import wordpressicon from '../../assets/icons/wordpressicon.svg';
-import shopifyicon from '../../assets/icons/shopifyicon.svg';
+import mongodbicon from '../../assets/icons/mongoicon.svg';
+import netlifyicon from '../../assets/icons/netlifyicon.svg';
+import nodejsicon from '../../assets/icons/nodejsicon.svg';
+import reacticon from '../../assets/icons/reacticon.svg';
+import rendericon from '../../assets/icons/rendericon.svg';
+import spotifyicon from '../../assets/icons/spotifyicon.svg';
+import oracleicon from '../../assets/icons/oracleicon.svg';
+import springbooticon from '../../assets/icons/springbooticon.svg';
+import angularjsicon from '../../assets/icons/angularjsicon.svg';
+import typescripticon from '../../assets/icons/typescripticon.svg';
+import nextjsicon from '../../assets/icons/nextjsicon.svg'
+import travelicon from '../../assets/icons/travel-icon.svg';
+import trelloicon from '../../assets/icons/trelloicon.svg';
 import webflowicon from '../../assets/icons/webflowicon.svg';
-import tastyMockup from '../../assets/img/tasty_mockup.webp';
+import wordpressicon from '../../assets/icons/wordpressicon.svg';
+import postgreicon from '../../assets/icons/postgreicon.svg';
+import nestjsicon from '../../assets/icons/nestjsicon.svg';
+import javaicon from '../../assets/icons/javaicon.svg';
 import instorMockup from '../../assets/img/instor_mockup.webp';
 import silentmoonMockup from '../../assets/img/silentmoon_mockup.webp';
-import profilepicture from '../img/me2.jpg';
-import caricon from '../../assets/icons/car-icon.svg';
-import travelicon from '../../assets/icons/travel-icon.svg';
-import hardwareicon from '../../assets/icons/hardware-icon.svg';
-import nextjsiconwhite from '../../assets/icons/nextjsiconwhite.svg';
-import expressiconwhite from '../../assets/icons/expressiconwhite.svg';
-import { GoHome, GoPerson, GoMail, GoStack, GoProject } from 'react-icons/go';
-import { FiGithub, FiLink, FiLinkedin, FiMail } from 'react-icons/fi';
+import tastyMockup from '../../assets/img/tasty_mockup.webp';
 import Imprint from '../../components/Imprint';
 import Privacy from '../../components/Privacy';
+import profilepicture from '../img/me2.jpg';
 
 export const headerIntroData = {
   title: {
@@ -179,118 +181,94 @@ export const skillsDataWeb = [
     skillsTitle: 'WebDevelopment',
     skills: [
       {
-        title: 'HTML',
-        hash: '#html',
-        icon: htmlicon,
-        color: '#F1662A',
+        title: 'Sping Boot',
+        hash: '#spring',
+        icon: springbooticon,
+        color: '#8BC34A',
       },
       {
-        title: 'CSS',
-        hash: '#CSS',
-        icon: cssicon,
-        color: '#1572B6',
-      },
-      {
-        title: 'JavaScript',
-        hash: '#JavaScript',
-        icon: javascripticon,
-        color: '#F7DF1E',
-      },
-      {
-        title: 'TypeScript',
-        hash: '#TypeScript',
-        icon: typescripticon,
-        color: '#007ACC',
-      },
-      {
-        title: 'React',
-        hash: '#React',
-        icon: reacticon,
-        color: '#61DAFB',
-      },
-      {
-        title: 'Next.js',
-        hash: '#Next.js',
-        icon: [nextjsicon, nextjsiconwhite],
-        color: ['#000000', '#FFFFFF'],
-      },
-      {
-        title: 'Node.js',
-        hash: '#Node.js',
+        title: 'NodeJS',
+        hash: '#nodejs',
         icon: nodejsicon,
         color: '#339933',
       },
       {
-        title: 'Tailwind',
-        hash: '#Tailwind',
-        icon: tailwindcssicon,
-        color: '#38B2AC',
-      },
-      {
-        title: 'MongoDB',
-        hash: '#MongoDB',
-        icon: mongodbicon,
-        color: '#449C45',
-      },
-      {
-        title: 'Vue.js',
-        hash: '#Vue.js',
-        icon: vuejsicon,
-        color: '#4FC08D',
-      },
-      {
         title: 'Express',
-        hash: '#Express',
+        hash: '#express',
         icon: [expressicon, expressiconwhite],
         color: ['#000000', '#FFFFFF'],
       },
       {
-        title: 'SASS/SCSS',
-        hash: '#SASS/SCSS',
-        icon: sassscssicon,
-        color: '#CC6699',
+        title: 'NestJS',
+        hash: '#nest',
+        icon: nestjsicon,
+        color: '#F51957',
+      },
+      {
+        title: 'ReactJS',
+        hash: '#react',
+        icon: reacticon,
+        color: '#00D8FF',
+      },
+      {
+        title: 'Angular',
+        hash: '#angular',
+        icon: angularjsicon,
+        color: '#DD2C00',
+      },
+      {
+        title: 'NextJS',
+        hash: '#next',
+        icon: nextjsicon,
+        color: '#C5C5C5',
+      },
+      {
+        title: 'Typescipt',
+        hash: '#typescript',
+        icon: typescripticon,
+        color: '#3178C6',
       },
     ],
   },
 ] as const;
 
-export const skillsDataDesign = [
+export const skillsLanguage = [
   {
-    skillsTitle: 'Design',
+    skillsTitle: 'Languages',
     skills: [
-      { title: 'Figma', hash: '#Figma', icon: figmaicon, color: '#F24E1E' },
+      { title: 'Java', hash: '#java', icon: javaicon, color: '#F24E1E' },
       {
-        title: 'Adobe XD',
-        hash: '#Adobe XD',
-        icon: adobexdicon,
-        color: '#FF61F6',
+        title: 'Javascript',
+        hash: '#javascript',
+        icon: javascripticon,
+        color: '#F7DF1E',
       },
-      { title: 'Canva', hash: '#Canva', icon: canvaicon, color: '#00C4CC' },
+      { title: 'C#', hash: '#c', icon: cicon, color: '#01C853' },
     ],
   },
 ] as const;
 
-export const skillsDataCMS = [
+export const skillsData = [
   {
-    skillsTitle: 'CMS',
+    skillsTitle: 'Database',
     skills: [
       {
-        title: 'WordPress',
-        hash: '#WordPress',
-        icon: wordpressicon,
+        title: 'PostgreSQL',
+        hash: '#postgre',
+        icon: postgreicon,
         color: '#21759B',
       },
       {
-        title: 'Shopify',
-        hash: '#Shopify',
-        icon: shopifyicon,
-        color: '#7AB55C',
+        title: 'Oracle',
+        hash: '#oracle',
+        icon: oracleicon,
+        color: '#E01B17',
       },
       {
-        title: 'Webflow',
-        hash: '#Webflow',
-        icon: webflowicon,
-        color: '#4353FF',
+        title: 'MongoDB',
+        hash: '#mongo',
+        icon: mongodbicon,
+        color: '#4E9B4A',
       },
     ],
   },
@@ -299,9 +277,9 @@ export const skillsDataCMS = [
 export const navLinks = [
   { vi: 'Trang chủ', en: 'Home', hash: '#home', icon: GoHome },
   { vi: 'Kỹ năng', en: 'Skills', hash: '#skills', icon: GoStack },
-  { vi: 'Dự án', en: 'Projects', hash: '#projects', icon: GoProject },
-  { vi: 'Về tôi', en: 'About me', hash: '#about-me', icon: GoPerson },
-  { vi: 'Liên hệ', en: 'Contact', hash: '#contact', icon: GoMail },
+  // { vi: 'Dự án', en: 'Projects', hash: '#projects', icon: GoProject },
+  // { vi: 'Về tôi', en: 'About Me', hash: '#about-me', icon: GoPerson },
+  // { vi: 'Liên hệ', en: 'Contact', hash: '#contact', icon: GoMail },
 ] as const;
 
 // TODO: Edit the content of the footer links
@@ -335,13 +313,13 @@ export const sideBarLeftSocials = [
 
 export const quotesData = [
   {
-    vi: '"Es ist überhaupt nicht wichtig, es beim ersten Mal richtig zu machen. Es ist entscheidend, es beim letzten Mal richtig zu machen."',
-    en: `"It's not at all important to get it right the first time. It's vitally important to get it right the last time."`,
-    author: 'Andrew Hunt',
+    vi: '"Đừng đợi cho đến khi học xong mới làm. Hãy bắt đầu làm ngay bây giờ để học hỏi và phát triển"',
+    en: `"Don't wait until your studies are finished to take action. Start taking action now to learn and grow"`,
+    author: 'Tuan Nguyen',
   },
   {
     vi: '"Das Web ist wie eine Leinwand und der Code ist die Farbe. Erschaffe dein Meisterwerk."',
-    en: `"The web is like a canvas, and code is the paint. Create your masterpiece."`,
+    en: `"The web is like a canvas, and code is the paint. Create your masterpiece.="`,
   },
 ] as const;
 
