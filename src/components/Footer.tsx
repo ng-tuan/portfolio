@@ -87,11 +87,11 @@ const Footer: React.FC = () => {
           </Link>
         ))}
       </div>
-      <div>
+      {/* <div>
         <Suspense fallback={<div>Loading...</div>}>
           <LazyServiceStatus />
         </Suspense>
-      </div>
+      </div> */}
     </footer>
   );
 };
